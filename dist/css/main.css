@@ -94,14 +94,57 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h1 {
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 400;
+}
 
 
 
 
 
 
+#page {
+    margin: 25px auto;
+    width: 90%;
+    
+
+}
 
 
+
+
+    
+
+
+.blog {
+    margin: 0 auto 50px;
+    width: 88.54%;   850 / 960
+}
+
+.blog .main {
+    float: left;
+    width: 058.823529%;  500 /850 
+}
+
+.blog .other {
+    float: right;
+    width: 036.470588%;   310/850
+}
+
+ .banner{
+   background-image:  url("img/banner_bg_05.jpg");
+   background-repeat: repeat-x;
+   
+   
+}
+
+.menu {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+}
 
 
 
