@@ -99,10 +99,41 @@ h1 {
     font-weight: 400;
 }
 
+#adspace p {
+    margin-left: 015.294117647059%; /*indented 130 px = 130 / 850px = 0.15294117647059*/ 
+    height: 60px;
+    background-color: red;
+    position: relative;
+}
 
+h3.catergory {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 012.941176470588%; 
+    font-family: 'Oswald', sans-serif;
+    color: #03bffa;
+    font-size: 1.375em;             /*22px / 16 =1.375em*/
+    text-transform: uppercase;
+}
 
+h4.carousel {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    margin-top: 0%;
+    margin-bottom: 0%;
 
+}
 
+h1.title {
+    font-size: 3em;
+    font-weight: 700
+    text-transform: bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 012.941176470588%;
+
+}
 
 #page {
     margin: 25px auto;
