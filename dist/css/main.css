@@ -99,17 +99,24 @@ h1 {
     font-weight: 400;
 }
 
+p {
+    font-family: "Georgia",serif;
+    font-size:1em;
+    margin-left:22.0%; 
+}
+
 #adspace p {
     margin-left: 015.294117647059%; /*indented 130 px = 130 / 850px = 0.15294117647059*/ 
     height: 60px;
     background-color: red;
     position: relative;
+    width: 720px;
 }
 
 h3.catergory {
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 012.941176470588%; 
+    margin-left: 22.0%;
     font-family: 'Oswald', sans-serif;
     color: #03bffa;
     font-size: 1.375em;             /*22px / 16 =1.375em*/
@@ -142,11 +149,33 @@ h1.title {
 
 }
 
+.date {
+    margin-left: 22.0%;
+    margin-bottom: 0%;
+    font-family: arial,sans-serif;
+    font-style: bold;
+    font-size: 1.125em;
+}
 
+.comments {
+   margin-left: 22.0%;
+    font-family: arial,sans-serif;
+    font-size:  1.25em;
+    color: #03bffa;
+    margin-top: 0%;
+}
 
-
+p.subheader {
+    margin-left: 22.0%;
+    font-family: "Oswald",sans-serif;
+    font-size:  1.4375em;    /*23 / 16 = 1.4375*/
+    color: #000;
+    margin-top: 0%;
+}
     
-
+hr.length {
+    margin-left: 22.0%;
+}
 
 .blog {
     margin: 0 auto 50px;
@@ -163,19 +192,40 @@ h1.title {
     width: 036.470588%;   310/850
 }
 
- .banner{
-   background-image:  url("img/banner_bg_05.jpg");
-   background-repeat: repeat-x;
-   
-   
+/*navigation*/
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background:rgb(21, 53, 93);
 }
 
-.menu {
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
-    text-transform: uppercase;
+li {
+    float: left;
+    border-right: 1px solid #bbb; 
 }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2em;
+
+}
+
+
+li a:hover {
+    background-color: #03bffa;
+}
+
+figure {
+     margin-left: 22.0%;
+}
+
 
 
 
