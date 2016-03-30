@@ -22,3 +22,7 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+$('.carousel').carousel({
+  interval: 5000
+})

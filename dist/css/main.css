@@ -99,10 +99,20 @@ h1 {
     font-weight: 400;
 }
 
-p {
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+ 
+.pmargin {
     font-family: "Georgia",serif;
     font-size:1em;
     margin-left:22.0%; 
+}
+
+p {
+    font-family: "Georgia",serif;
+    font-size:1em;
 }
 
 #adspace p {
@@ -192,6 +202,8 @@ hr.length {
     width: 036.470588%;   310/850
 }
 
+
+
 /*navigation*/
 
 ul {
@@ -222,17 +234,50 @@ li a:hover {
     background-color: #03bffa;
 }
 
-figure {
+figure img {
      margin-left: 22.0%;
+     width:auto;
 }
 
 
+.image-shown {
 
+    display: inline-block;
+}
 
+.image-hidden {
 
+    display: none;
+}
 
+.carousel-inner {
+    width:0.35.294117647059%;
+    height: auto;
+    position: relative;
+    /*float:left;*/
+}
 
+.carousel-inner img {
+    width:100%;
+    height: 100%;
 
+}
+
+.previousLink, .nextLink {
+    float: left;
+}
+
+.box {
+
+    
+    border-color: #03bffa;
+    border-style: solid;
+    padding: 5px;
+    margin-top:  5%;
+    height: auto;
+    position: static;
+    
+}
 
 
 /* ==========================================================================
