@@ -1,10 +1,12 @@
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -15,6 +17,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -34,6 +37,7 @@ html {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -46,6 +50,7 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -62,6 +67,7 @@ video {
     vertical-align: middle;
 }
 
+
 /*
  * Remove default fieldset styles.
  */
@@ -72,6 +78,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -79,6 +86,7 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -91,11 +99,13 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 h1 {
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
 }
 
@@ -103,24 +113,25 @@ h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
 }
- 
+
 .pmargin {
-    font-family: "Georgia",serif;
-    font-size:1em;
-    margin-left:22.0%; 
+    font-family: "Georgia", serif;
+    font-size: 1em;
+    margin-left: 22.0%;
 }
 
 p {
-    font-family: "Georgia",serif;
-    font-size:1em;
+    font-family: "Georgia", serif;
+    font-size: 1em;
 }
 
 #adspace p {
-    margin-left: 015.294117647059%; /*indented 130 px = 130 / 850px = 0.15294117647059*/ 
-    height: 60px;
+    margin-left: 015.294117647059%;
+    /*indented 130 px = 130 / 850px = 0.15294117647059*/
+    height: 90px;
     background-color: red;
     position: relative;
-    width: 720px;
+    width: 728px;
 }
 
 h3.catergory {
@@ -129,7 +140,8 @@ h3.catergory {
     margin-left: 22.0%;
     font-family: 'Oswald', sans-serif;
     color: #03bffa;
-    font-size: 1.375em;             /*22px / 16 =1.375em*/
+    font-size: 1.375em;
+    /*22px / 16 =1.375em*/
     text-transform: uppercase;
 }
 
@@ -139,69 +151,67 @@ h4.carousel {
     text-transform: uppercase;
     margin-top: 0%;
     margin-bottom: 0%;
-
 }
 
 h1.title {
     font-size: 3em;
-    font-weight: 700
-    text-transform: bold;
+    font-weight: 700 text-transform: bold;
     margin-top: 0%;
     margin-bottom: 0%;
     margin-left: 012.941176470588%;
-
 }
 
 #page {
     margin: 25px auto;
     width: 90%;
-    
-
 }
 
 .date {
     margin-left: 22.0%;
     margin-bottom: 0%;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     font-style: bold;
     font-size: 1.125em;
 }
 
 .comments {
-   margin-left: 22.0%;
-    font-family: arial,sans-serif;
-    font-size:  1.25em;
+    margin-left: 22.0%;
+    font-family: arial, sans-serif;
+    font-size: 1.25em;
     color: #03bffa;
     margin-top: 0%;
 }
 
 p.subheader {
     margin-left: 22.0%;
-    font-family: "Oswald",sans-serif;
-    font-size:  1.4375em;    /*23 / 16 = 1.4375*/
+    font-family: "Oswald", sans-serif;
+    font-size: 1.4375em;
+    /*23 / 16 = 1.4375*/
     color: #000;
     margin-top: 0%;
 }
-    
+
 hr.length {
     margin-left: 22.0%;
 }
 
 .blog {
     margin: 0 auto 50px;
-    width: 88.54%;   850 / 960
+    width: 88.54%;
+    850 / 960
 }
 
 .blog .main {
     float: left;
-    width: 058.823529%;  500 /850 
+    width: 058.823529%;
+    500 /850
 }
 
 .blog .other {
     float: right;
-    width: 036.470588%;   310/850
+    width: 036.470588%;
+    310/850
 }
-
 
 
 /*navigation*/
@@ -209,12 +219,12 @@ hr.length {
 ul {
     list-style-type: none;
     overflow: hidden;
-    background:rgb(21, 53, 93);
+    background: rgb(21, 53, 93);
 }
 
 li {
     float: left;
-    border-right: 1px solid #bbb; 
+    border-right: 1px solid #bbb;
 }
 
 li a {
@@ -226,63 +236,32 @@ li a {
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
     font-size: 1.2em;
-
 }
-
 
 li a:hover {
     background-color: #03bffa;
 }
 
 figure img {
-     margin-left: 22.0%;
-     width:auto;
+    margin-left: 22.0%;
+    width: auto;
 }
 
-
 .image-shown {
-
     display: inline-block;
 }
 
 .image-hidden {
-
     display: none;
 }
 
-.carousel-inner {
-    width:0.35.294117647059%;
-    height: auto;
-    position: relative;
-    /*float:left;*/
-}
 
-.carousel-inner img {
-    width:100%;
-    height: 100%;
-
-}
-
-.previousLink, .nextLink {
-    float: left;
-}
-
-.box {
-
-    
-    border-color: #03bffa;
-    border-style: solid;
-    padding: 5px;
-    margin-top:  5%;
-    height: auto;
-    position: static;
-    
-}
 
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers:
@@ -291,6 +270,7 @@ figure img {
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -308,6 +288,7 @@ figure img {
     width: 1px;
 }
 
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
@@ -324,6 +305,7 @@ figure img {
     width: auto;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -331,6 +313,7 @@ figure img {
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -346,13 +329,16 @@ figure img {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -365,11 +351,12 @@ figure img {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -382,68 +369,197 @@ figure img {
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
-
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
     tr,
     img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2,
     h3 {
         page-break-after: avoid;
+    }
+}
+
+
+/*carousel*/
+
+.pattern {
+    background: #f7f7f7;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+
+.c {
+    position: relative;
+    margin: 0 auto;
+}
+
+.c h2 {
+    font-size: 1.6em;
+}
+/*modified height*/
+.c-list-container {
+    overflow: hidden;
+    position: relative;
+    height: 170px;
+    z-index: 0;
+}
+/*Modified width*/
+.c-list {
+    width: 300px;
+    position: relative;
+    left: 0;
+}
+
+.c-list.animating {
+    -webkit-transition: left 0.25s ease-out;
+    -moz-transition: left 0.25s ease-out;
+    -o-transition: left 0.25s ease-out;
+    transition: left 0.25s ease-out;
+}
+
+.c li {
+    float: left;
+    position: relative;
+}
+
+.c li a {
+    display: block;
+}
+
+.c img {
+    display: block;
+}
+
+.c h2 {
+    margin-top: 0;
+}
+
+.summary {
+    padding: 1em;
+}
+
+.c-nav {
+    clear: both;
+    overflow: hidden;
+    border-top: 1px solid #808080;
+}
+
+.c-nav a {
+    float: left;
+    width: 50%;
+    padding: 1em;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.c-nav a.next {
+    border-left: 1px solid #808080;
+    text-align: right;
+}
+
+.c-nav a.inactive {
+    opacity: 0.2;
+}
+
+
+/* Medium */
+
+@media screen and (min-width: 35em) {
+    body:after {
+        /* Conditional CSS http://adactio.com/journal/5429/ */
+        content: 'medium';
+        display: none;
+    }
+}
+
+
+/* Large */
+
+@media screen and (min-width: 56.25em) {
+    body:after {
+        /* Conditional CSS http://adactio.com/journal/5429/ */
+        content: 'large';
+        display: none;
+    }
+}
+
+
+/*Large with room to spare on either side */
+
+@media screen and (min-width: 56em) {
+    .summary {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    .c h2 {
+        font-size: 2.6em;
+    }
+    .c-nav a {
+        position: absolute;
+        top: 40%;
+        left: 1em;
+        width: 4em;
+        height: 2em;
+        padding: 0;
+        margin-top: -1em;
+        color: #fff;
+    }
+    .c-nav a.next {
+        left: auto;
+        right: 1em;
+        border: 0;
     }
 }
