@@ -1,7 +1,8 @@
 # Contributing to HTML5 Boilerplate
 
-♥ [HTML5 Boilerplate](https://html5boilerplate.com) and want to get involved?
-Thanks! There are plenty of ways you can help!
+♥ [HTML5 Boilerplate](https://html5boilerplate.com/) and want to get involved?
+Thanks! We're actively looking for folks interested in helping out and there
+are plenty of ways you can help!
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -129,7 +130,7 @@ included in the project:
    ```
 
 4. Commit your changes in logical chunks. Please adhere to these [git commit
-   message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+   message guidelines](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
    or your code is unlikely be merged into the main project. Use Git's
    [interactive rebase](https://help.github.com/articles/about-git-rebase/)
    feature to tidy up your commits before making them public.
