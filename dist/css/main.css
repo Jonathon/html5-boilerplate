@@ -273,7 +273,9 @@ figure img {
 .c {
     height: 800px;
 }
-
+ul.c-list {
+    height: 800px;
+}
 
 
 =======
