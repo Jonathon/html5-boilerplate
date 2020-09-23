@@ -277,6 +277,9 @@ ul.c-list {
     height: 450px;
 }
 
+li {
+  height: 400px;  
+}
 
 =======
 >>>>>>> upstream/master
