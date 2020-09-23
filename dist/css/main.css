@@ -277,7 +277,7 @@ ul.c-list {
     height: 450px;
 }
 
-li {
+.c-list li {
   height: 400px;  
 }
 
