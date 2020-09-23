@@ -266,7 +266,7 @@ figure img {
     display: none;
 }
 
-#pattern {
+#pattern.pattern {
  height:800px;
 }
 
